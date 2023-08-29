@@ -10,9 +10,29 @@
 
 <body>
 
+    <div class="container">
+        <h1>ER - <span>AI</span></h1>
+        <p>Type in your request here to generate cool and imaginative pictures that come to life using openjourney API.
+            It's
+            like turning your thoughts into art!</p>
+        <form class="generation">
+            <input type="text" id="user-prompt" placeholder="Be Creative..." autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+        </form>
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+            <div id="generate-more">
+                <button id="more-btn">
+                    Generate More
+                </button>
+            </div>
+        </div>
+    </div>
 
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
+
 </body>
 
 </html>
